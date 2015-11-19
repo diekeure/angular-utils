@@ -1,0 +1,27 @@
+{
+  "name": "angular-utils",
+  "homepage": "https://github.com/diekeure/angular-utils",
+  "description": "Common angular code",
+  "main": "dist/diekeure-angular-utils.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "diekeure",
+    "angular",
+    "utils"
+  ],
+  "authors": [
+    "Bert Casier",
+    "Thomas Ghesquiere"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
