@@ -1,0 +1,29 @@
+{
+  "name": "angular-utils",
+  "version": "1.0.0",
+  "description": "Common angular code",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.18"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diekeure/angular-utils.git"
+  },
+  "author": "Bert Casier",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/diekeure/angular-utils/issues"
+  },
+  "homepage": "https://github.com/diekeure/angular-utils#readme"
+}
