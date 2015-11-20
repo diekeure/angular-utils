@@ -16,7 +16,7 @@
   },
   "scripts": {
     "test": "karma start",
-    "install": "ln -s pre-commit.sh .git/hooks/pre-commit"
+    "install": "ln -s pre-commit.sh .git/hooks/pre-commit && chmod +x pre-commit.sh"
   },
   "repository": {
     "type": "git",
