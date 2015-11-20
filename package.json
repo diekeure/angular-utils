@@ -21,8 +21,7 @@
     "phantomjs": "^1.9.18"
   },
   "scripts": {
-    "test": "karma start",
-    "install": "ln -s ../../pre-commit.sh .git/hooks/pre-commit"
+    "test": "karma start"
   },
   "repository": {
     "type": "git",
