@@ -5,8 +5,14 @@
   "directories": {
     "test": "test"
   },
+  "main": "dist/angular-utils.min.js",
   "dependencies": {},
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1",
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.15",
     "karma-coverage": "^0.5.3",
@@ -16,7 +22,7 @@
   },
   "scripts": {
     "test": "karma start",
-    "install": "ln -s pre-commit.sh .git/hooks/pre-commit && chmod +x pre-commit.sh"
+    "install": "ln -s ../../pre-commit.sh .git/hooks/pre-commit"
   },
   "repository": {
     "type": "git",
