@@ -1,6 +1,6 @@
 /*!
  * gulp
- * $ npm install gulp gulp-jshint gulp-concat gulp-uglify --save-dev
+ * $ npm install gulp gulp-jshint gulp-concat gulp-uglify gulp-rename --save-dev
  */
 
 // Load plugins
