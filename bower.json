@@ -2,7 +2,7 @@
   "name": "angular-utils",
   "homepage": "https://github.com/diekeure/angular-utils",
   "description": "Common angular code",
-  "main": "dist/diekeure-angular-utils.js",
+  "main": "dist/angular-utils.js",
   "moduleType": [
     "globals"
   ],
@@ -31,3 +31,6 @@
     "angular-mocks": "~1.4.7"
   }
 }
+
+
+// 9be77ecbb094b75bd88f6e9483319ccf94eda10d
