@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	angular.module('app.directives').directive('dkUnique', dkUnique);
+	angular.module('dk.utils').directive('dkUnique', dkUnique);
 	
 	/* @ngInject */
 	function dkUnique($q, $injector) {
