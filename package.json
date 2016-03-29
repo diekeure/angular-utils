@@ -1,12 +1,14 @@
 {
   "name": "angular-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common angular code",
   "directories": {
     "test": "test"
   },
   "main": "dist/angular-utils.min.js",
-  "dependencies": {},
+  "dependencies": {
+
+    },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
