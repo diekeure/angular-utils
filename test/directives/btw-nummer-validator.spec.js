@@ -21,10 +21,10 @@ describe('btw-nummer-validator directive', function() {
     expectInvalid('089932401');
     expectInvalid('BE0899324011212');
     expectInvalid('TEST');
-    expectInvalid('');
-    expectInvalid(null);
-    expectInvalid(undefined);
-    expectInvalid();
+    expectValid('');
+    expectValid(null);
+    expectValid(undefined);
+    expectValid();
     expectInvalid('BE0899324019');
 
     expectValid('BE0899324018');

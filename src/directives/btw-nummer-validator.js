@@ -9,8 +9,8 @@
 			require: 'ngModel',
 			link: function(scope, element, attributes, ngModel) {
 				ngModel.$validators.dkBtwNummer = function(modelValue) {
-					if(!modelValue) {
-						return false;
+					if(modelValue === undefined || modelValue === null || modelValue === '') {
+						return true;
 					}
 					modelValue = modelValue.toString().toUpperCase();
 
