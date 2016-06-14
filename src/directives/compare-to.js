@@ -2,7 +2,7 @@
 
     'use strict';
 
-    angular.module('dk.utils', []).directive('dkCompareTo', dkCompareTo);
+    angular.module('dk.utils').directive('dkCompareTo', dkCompareTo);
 
     /*
 	* Compare element model with another model specified in attribute value
