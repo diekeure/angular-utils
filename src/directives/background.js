@@ -17,7 +17,7 @@
             element.style.backgroundImage = dkBackground;
             return;
           }
-          element[0].style.backgroundImage = dkBackground;			// then replace default image with dk-src
+          element[0].style.backgroundImage = 'url("'+ dkBackground + '")';			// then replace default image with dk-src
 
         });
       },
