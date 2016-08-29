@@ -7,7 +7,7 @@
   angular.module('dk.utils').directive('dkBackground', dkBackground);
 
   /* @ngInject */
-  function dkBackground($http) {
+  function dkBackground() {
     return {
       link: function(scope, element, attrs) {
         attrs.$observe('dkBackground', function(dkBackground) {

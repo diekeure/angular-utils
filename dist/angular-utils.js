@@ -14,7 +14,7 @@
   angular.module('dk.utils').directive('dkBackground', dkBackground);
 
   /* @ngInject */
-  function dkBackground($http) {
+  function dkBackground() {
     return {
       link: function(scope, element, attrs) {
         attrs.$observe('dkBackground', function(dkBackground) {
@@ -24,10 +24,8 @@
             element.style.backgroundImage = dkBackground;
             return;
           }
+          element[0].style.backgroundImage = dkBackground;			// then replace default image with dk-src
 
-          $http.get(dkBackground).success(function() {	// check if image in dk-src exists
-            element.style.backgroundImage = dkBackground;			// then replace default image with dk-src
-          });
         });
       },
       restrict: 'A'
