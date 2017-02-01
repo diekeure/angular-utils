@@ -18,7 +18,7 @@
                         return;
                     }
 
-                    $http.get(dkSrc).success(function() {	// check if image in dk-src exists
+                    $http.get(dkSrc).then(function() {	// check if image in dk-src exists
                         element.attr('src', dkSrc);			// then replace default image with dk-src
                     });
                 });
