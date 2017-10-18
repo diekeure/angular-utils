@@ -1,6 +1,6 @@
 {
   "name": "angular-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Common angular code",
   "directories": {
     "test": "test"
