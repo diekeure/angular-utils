@@ -7,7 +7,7 @@
     angular.module('dk.utils').directive('dkSrc', dkSrc);
 
     /* @ngInject */
-    function dkSrc($http) {
+    function dkSrc() {
         return {
             link: function(scope, element, attrs) {
                 attrs.$observe('dkSrc', function(dkSrc) {
@@ -17,10 +17,12 @@
                         element.attr('src', dkSrc);
                         return;
                     }
-
-                    $http.get(dkSrc).then(function() {	// check if image in dk-src exists
-                        element.attr('src', dkSrc);			// then replace default image with dk-src
-                    });
+                    // check if image in dk-src exists
+                    var img = new Image();
+                    img.onload = function() {
+                      element.attr('src', dkSrc); // then replace default image with dk-src
+                    };
+                    img.src = dkSrc;
                 });
             },
             restrict: 'A'
